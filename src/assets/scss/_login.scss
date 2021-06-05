@@ -1,0 +1,32 @@
+.grid-menu {
+    .inputs-login {
+        label {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: 0.1em;
+            color: #444B59;
+        }
+        input {
+            border: 2px solid #8496bb;
+            box-sizing: border-box;
+            border-radius: 80px;
+            margin: 16px 0px;
+            height: 55px;
+            padding: 20px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 30px;
+            letter-spacing: 0.1em;
+            color: #444B59;
+        }
+        input:hover,
+        input:focus {
+            border: 2px solid #789ADE;
+        }
+    }
+}

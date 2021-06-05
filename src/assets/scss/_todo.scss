@@ -1,0 +1,40 @@
+:root {
+    --basecolor: #00E4A0;
+}
+
+[data-theme="light"] {
+    --basecolor: #00E4A0;
+}
+
+[data-theme="dark"] {
+    --basecolor: #00E4A0;
+}
+
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: var(--backgroundcolor) !important;
+    font-size: 0.875rem;
+    line-height: 1.333rem;
+    font-family: Montserrat, sans-serif;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+    &:focus {
+        outline: none;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.w100 {
+    width: 100%;
+}
